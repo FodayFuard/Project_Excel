@@ -1,6 +1,6 @@
 # Median Income and Notable Highlights by State  
 ![](Plot1.gif)
-## Introduction
+# Introduction
 The above dashboard provides a visual and data_driven way to explore median household income and notable highlights across U.S. states. By selecting a state from the dropdown, users can instantly see a color-coded map showing income distribution nationwide, along with the state’s region, median income, a famous person from that state, and a major tourist attraction with an accompanying image. This dashboard combines economic data with cultural insights to provide a more complete understanding of each state’s unique profile, making it both informative and visually appealing for presentations, reports, or simply exploring interesting patterns in U.S. demographics.
 ### Excel File
 [zip_code_demographics](zip_code_demographics.xlsx)
@@ -78,5 +78,5 @@ MEDIAN(IF(A2=MyTable[state_name],
 **Purpose**: To visualize and compare median income distribution across all states, highlighting geographic disparities in household income.
 
 **Use Case**: Identify regions with significantly higher or lower median incomes, informing decisions in policy analysis, business strategy, or socioeconomic research.
-## Conclusion
+# Conclusion
 This project turned raw ZIP code-level data into an interactive, insightful dashboard showing median income and cultural highlights by state. By combining data validation, MEDIAN formulas, XLOOKUP, and a filled map chart, I built a tool that’s both informative and engaging. The dashboard makes it easy to spot income patterns across states and adds context with famous people and top attractions, providing a complete picture of each state’s unique profile.
