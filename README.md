@@ -3,14 +3,14 @@
 # Introduction
 The above dashboard provides a visual and data_driven way to explore median household income and notable highlights across U.S. states. By selecting a state from the dropdown, users can instantly see a color-coded map showing income distribution nationwide, along with the state’s region, median income, a famous person from that state, and a major tourist attraction with an accompanying image. This dashboard combines economic data with cultural insights to provide a more complete understanding of each state’s unique profile, making it both informative and visually appealing for presentations, reports, or simply exploring interesting patterns in U.S. demographics.
 ### Excel File
-[zip_code_demographics](zip_code_demographics.xlsx)
+[zip_code_demographics](zip_code_demographics_data.xlsx)
 
 ### Skills in Excel I Used
 * Data validation
 * Formulars and functions
 * Charts
 ### Dataset
-The original dataset contains detailed demographic and economic information for over 30,000 U.S. ZIP codes, including location attributes (city, state, county, latitude, longitude), population figures, income metrics (adjusted gross income, total income amount, number of tax returns), and business indicators like the number of businesses per ZIP code. The dataset was downloaded from Kaggle.
+The original dataset contains detailed demographic and economic information for over 30,000 U.S. ZIP codes, including location attributes (city, state, county, latitude, longitude), population figures, income metrics (adjusted gross income, total income amount, number of tax returns), and business indicators like the number of businesses per zip code. The dataset was downloaded from Kaggle.
 The dataset used for this project was a table (called MyTable) that was a copy of the original dataset, with some of the columns deleted. Below are the columns used in this project:
 * state_name
 * total_income_amount
