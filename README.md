@@ -1,13 +1,13 @@
 # Median Income and Notable Highlights by State  
 ![](Plot1.gif)
 # Introduction
-The above dashboard provides a visual and data_driven way to explore median household income and notable highlights across U.S. states. By selecting a state from the dropdown, users can instantly see a color-coded map showing income distribution nationwide, along with the state’s region, median income, a famous person from that state, and a major tourist attraction with an accompanying image. This dashboard combines economic data with cultural insights to provide a more complete understanding of each state’s unique profile, making it both informative and visually appealing for presentations, reports, or simply exploring interesting patterns in U.S. demographics.
+The above dashboard provides a visual and data-driven way to explore median household income and notable highlights across U.S. states. By selecting a state from the dropdown, users can instantly see a color-coded map showing income distribution nationwide, along with the state’s region, median income, a famous person from that state, and a major tourist attraction with an accompanying image. This dashboard combines economic data with cultural insights to provide a more complete understanding of each state’s unique profile, making it both informative and visually appealing for presentations, reports, or simply exploring interesting patterns in U.S. demographics.
 ### Excel File
 [zip_code_demographics](zip_code_demographics_data.xlsx)
 
 ### Skills in Excel I Used
 * Data validation
-* Formulars and functions
+* Formulas and functions
 * Charts
 ### Dataset
 The original dataset contains detailed demographic and economic information for over 30,000 U.S. ZIP codes, including location attributes (city, state, county, latitude, longitude), population figures, income metrics (adjusted gross income, total income amount, number of tax returns), and business indicators like the number of businesses per zip code. The dataset was downloaded from Kaggle.
@@ -19,9 +19,10 @@ The dataset used for this project was a table (called MyTable) that was a copy o
 * Region
 # Building the Dashboard
 ## Data validation
-Enhanced data validation was used to allow users to interact with the dashboard and provide economic and georgraphic insights for all the unique states in the dataset.
+Enhanced data validation was used to allow users to interact with the dashboard and provide economic and geographic insights for all the unique states in the dataset.
+
 ![](Data_validation.gif)
-## Formulars and functions
+## Formulas and functions
 ### Median Income by State
 ```excel
 MEDIAN(IF(A2=MyTable[state_name],
@@ -44,8 +45,10 @@ Below is what each portion of the above formula:
 ### Sample of Median Income Table by State
 ![](Median.png)
 ### XLOOKUP 
-The XLOOKUP function was used to display, median income, region, famous_person, and tourist_attraction for each state selected in the data validation cell. Below is one example of how this function was used:
+The XLOOKUP function was used to display median income, region, famous_person, and tourist_attraction for each state selected in the data validation cell. Below is one example of how this function was used in a formula:
 `=XLOOKUP(state,MyTable[state_name],MyTable[top_tourist_attraction])`
+
+*Explanation of formula*
 
 `state`
 
