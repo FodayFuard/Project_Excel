@@ -19,9 +19,11 @@ The dataset used for this project was a table (called MyTable) that was a copy o
 * Region
 # Building the Dashboard
 ## Data validation
+
 Enhanced data validation was used to allow users to interact with the dashboard and provide economic and geographic insights for all the unique states in the dataset.
 
 ![](Data_validation.gif)
+
 ## Formulas and functions
 ### Median Income by State
 ```excel
@@ -67,6 +69,7 @@ The XLOOKUP function was used to display median income, region, famous_person, a
 * XLOOKUP returns the attraction matching the found state.
 ## Charts
 ![](Chart.png)
+
 **Chart Type**: Filled Map Chart (State-by-State Median Income)
 
 **Data Source**: Calculated using the dataset, aggregating `total_income_amount` for each ZIP code within each state.
